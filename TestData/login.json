@@ -1,0 +1,24 @@
+{
+    "name": "Login Test Cases",
+    "description": "Provide data to login test scenarios",
+    "defaults": {
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+    },
+    "test_cases": [
+        {
+            "test_title": "test_successful_login",
+            "user_name": "Admin",
+            "password": "admin123"
+        },
+        {
+            "test_title": "test_successful_login_122",
+            "user_name": "Admin",
+            "password": "admin123"
+        },
+        {
+            "test_title": "test_successful_login_09943",
+            "user_name": "Admin",
+            "password": "admin123"
+        }
+    ]
+}

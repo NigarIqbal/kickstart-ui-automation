@@ -1,0 +1,8 @@
+Reports/*
+Logs/*
+__pycache__
+VENV/
+*.pyc
+.vscode/
+*.xml
+.pytest_cache

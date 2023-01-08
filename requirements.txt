@@ -1,0 +1,9 @@
+#Framework
+selenium
+pytest
+
+#Driver manager
+webdriver-manager
+
+#Report
+pytest-html
