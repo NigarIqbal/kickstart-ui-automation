@@ -1,14 +1,19 @@
 import os
+import datetime
 
 browser = input('On which browser do you want to run test cases? ')
 report = input('Generate HTML report: ')
 
-if report.lower() == 'yes':
-    report = '--html=./Reports/report.html'
 
+now = datetime.datetime.now()
+if report.lower() == 'yes' or report.lower() == "y" or report.lower() == "":
+    report = f'--html=./Reports/report_{now.strftime("%H%M%S")}.html'
 else:
     report = ""
 
-command = f"pytest -v -s {report} ./TestCases/ --browser {browser} --debug_mode"
+if browser == "":
+    browser = 'chrome'
+
+command = f"pytest -v {report} ./TestCases/ --browser {browser}"
 print(command)
 os.system(command)

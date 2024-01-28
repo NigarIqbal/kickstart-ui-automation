@@ -1,9 +1,9 @@
 #Framework
-selenium
-pytest
+selenium==4.17.2
+pytest==7.4.4
 
 #Driver manager
-webdriver-manager
+webdriver-manager==4.0.1
 
 #Report
-pytest-html
+pytest-html==4.1.1
