@@ -11,14 +11,9 @@
             "password": "admin123"
         },
         {
-            "test_title": "test_successful_login_122",
-            "user_name": "Admin",
-            "password": "admin123"
-        },
-        {
-            "test_title": "test_successful_login_09943",
-            "user_name": "Admin",
-            "password": "admin123"
+            "test_title": "test_unsuccessful_login",
+            "user_name": "Wrong",
+            "password": "Credentials"
         }
     ]
 }

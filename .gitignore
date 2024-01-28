@@ -1,8 +1,9 @@
 Reports/*
 Logs/*
 __pycache__
-VENV/
+venv/*
 *.pyc
 .vscode/
 *.xml
 .pytest_cache
+test_results
